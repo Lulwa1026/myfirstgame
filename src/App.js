@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import { Cards } from './Component/Cards';
+
+import imges from './Data/cardsData';
 
 function App() {
+  const[first, setFirst] = useState(imges.cover)
+  const handleClick = () => {
+    if (first === imges.cover){
+      setFirst(imges.img);
+    }else {
+      setFirst(imges.cover)
+    }
+  }
+  const imgeList = imges.map((imge, index)=> {
+    return(
+      <Cards imge={imge}/>
+    )}
+  )
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Memory Game</h1>
+      <button>New Game</button>
+      <div className='container'>
+        {imgeList}
+      </div>
+      <img onClick={handleClick} src={first}></img>
     </div>
+    
   );
-}
-
+};
 export default App;
+

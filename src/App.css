@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+.Img{
+  height: 150px;
+  width: 100px;
+}
+
+.container{
+  height: 600px;
+  width: 700px;
+  background-color: lightblue;
+  margin: 1.5cm;
+}

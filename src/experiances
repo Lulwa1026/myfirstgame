@@ -1,0 +1,350 @@
+// Card.js
+// import React from "react"
+// export default function Card(props) {
+//     return(
+//         <div>
+//             <img src={props.card.img}></img>
+//         </div>
+//     )
+// };
+
+
+// function card() {
+//     return <p>card</p>
+// }
+
+// export default card;
+
+// import React from 'react'
+
+// const card = () => {
+//   return (
+//     <div>card</div>
+//   )
+// }
+
+// export default card
+
+
+
+//cards.js
+// import cardsimg from ""
+import card from "./card";
+// import ananas from '../img/ananas.PNG';
+// import grape from '../img/grape.PNG';
+// import blueberry from '../img/blueberry.webp';
+// import carrot from '../img/carrot.webp';
+// import lemon from '../img/lemon.PNG';
+// import onion from '../img/onion.PNG';
+// import { useState } from "react";
+
+// function card(){
+//     const [cards, setCards] = useState([
+//         {img: '../img/onion.PNG'},
+//         {img: '../img/grape.PNG'},
+//         {img: '../img/blueberry.webp'},
+//         {img: '../img/carrot.webp'},
+//         {img: '../img/ananas.PNG'},
+//         {img: '../img/lemon.PNG'},
+//     ]);
+    // const gameCards = () => {
+    //     const scrumbledCards = [...useState, ...useState]
+    //     .sort(() => Math.random() - 0.5)
+    //     .map((card) => ({...card, id: Math.random()}));
+    //     setCards(scrumbledCards);}
+//     return(
+//         <div className="container">
+//             {cards.map(card => (<card />))}
+//         </div>
+//     )
+// }
+
+
+
+// import React from 'react'
+
+// export const cards = (props) => {
+//   return (
+//     <div>
+//         <img src={props.cardsimg.img}></img>
+//     </div>
+//   )
+// }
+
+
+
+// const myItems =[
+//     {
+//         id: 0,
+//         name: "animal",
+//     },
+//     {
+//         id: 1,
+//         name: "flower",
+//     },
+//     {
+//         id: 1,
+//         name: "people",
+//     },
+// ]
+// export default myItems;
+
+
+
+// import ananas from "./ananas.PNG";
+// import grape from './grape.PNG';
+// import blueberry from './blueberry.webp';
+// import carrot from './carrot.webp';
+// import lemon from './lemon.PNG';
+// import onion from './onion.PNG';
+
+// const cardsImgs = [
+//   {img: ananas,
+//    background: "https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//   },
+//   {img: grape,
+//     background: "https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//   },
+//   {img: blueberry,
+//     background: "https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//   },
+//   {img: carrot,
+//     background: "https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//   },
+//   {img: lemon,
+//     background: "https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//   },
+//   {img: onion,
+//     background: "https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//   },
+// ];
+// export default cardsImgs;
+
+
+// const cardsimg = [
+//     {
+//         // name: 'strawberry',
+//         // imgbackground: "https://www.liquitex.com/cdn/shop/files/71753_375x375_crop_center.jpg?v=1693208504",
+//         img: "https://png.pngtree.com/png-clipart/20230528/original/pngtree-cute-strawberry-cartoon-png-image_9172224.png",
+//     },
+//     {
+//         // name: 'noodle',
+//         // imgbackground: "https://www.liquitex.com/cdn/shop/files/71753_375x375_crop_center.jpg?v=1693208504",
+//         img: "https://st5.depositphotos.com/78905846/65610/v/450/depositphotos_656106300-stock-illustration-chicken-noodle-soup-vegetables-white.jpg",
+//     },
+//     {
+//         // name: 'salad',
+//         // imgbackground: "https://www.liquitex.com/cdn/shop/files/71753_375x375_crop_center.jpg?v=1693208504",
+//         img: "https://banner2.cleanpng.com/20240220/tlj/transparent-salad-cartoon-salad-in-glass-bowl-1710871324486.webp",
+//     },
+//     {
+//         // name: 'potato',
+//         // imgbackground: "https://www.liquitex.com/cdn/shop/files/71753_375x375_crop_center.jpg?v=1693208504",
+//         img: "https://img.freepik.com/premium-photo/delicious-potato-cartoon-character-design_1000714-1166.jpg",
+//     },
+//     {
+//         // name: 'pizza',
+//         // imgbackground: "https://www.liquitex.com/cdn/shop/files/71753_375x375_crop_center.jpg?v=1693208504",
+//         img: "https://img.freepik.com/premium-vector/vector-hand-drawn-cute-pizza-cartoon-illustration_721966-848.jpg",
+//     },
+//     {
+//         // name: 'cake',
+//         // imgbackground: "https://www.liquitex.com/cdn/shop/files/71753_375x375_crop_center.jpg?v=1693208504",
+//         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKzftDUV7fFk0oBVP7AQkRCuJolXeeD-FvDg&s",
+//     },
+// ];
+
+
+//light purple colour:
+//https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png
+
+// export default cardsimg;
+
+// import ananas from '../img/ananas.PNG';
+// import grape from '../img/grape.PNG';
+// import blueberry from '../img/blueberry.webp';
+// import carrot from '../img/carrot.webp';
+// import lemon from '../img/lemon.PNG';
+// import onion from '../img/onion.PNG';
+
+// const cardsImg = [
+//     {img: ananas},
+//     {img: grape},
+//     {img: blueberry},
+//     {img: carrot},
+//     {img: lemon},
+//     {img: onion},
+// ]
+
+// export default cardsImg;
+
+
+
+
+// const idontknow = cardsImg.map((aname, index) => {
+//   return (
+//     <cards />
+// )
+// })
+
+// import { useState } from 'react';
+// import cards from './Data/cardsData';
+
+//   const [cards, setCards] = useState([]);
+// const gameCards = () => {
+//   const scrumbledCards = [...cardsImgs, ...cardsImgs]
+//   .sort(() => Math.random() - 0.5)
+//   .map((card) => ({...card, id: Math.random()}));
+//   setCards(scrumbledCards);
+// }
+// console.log(cards);
+  
+//   return (
+//     <div className="App">
+//       <h1>Memory Game</h1>
+//       <button onClick={gameCards}>New Game</button>
+//     </div>
+//   );
+
+// const cardsImgs = [
+//   {img: ananas},
+//   {img: grape},
+//   {img: blueberry},
+//   {img: carrot},
+//   {img: lemon},
+//   {img: onion},
+// ];
+
+{/* <div>
+        <img className='Img' src={cardsImgs[0].img}></img>
+        <img className='Img' src={cardsImgs[1].img}></img>
+        <img className='Img' src={cardsImgs[0].img}></img>
+        <img className='Img' src={cardsImgs[1].img}></img>
+        </div>
+        <div>
+        <img className='Img' src={cardsImgs[2].img}></img>
+        <img className='Img' src={cardsImgs[3].img}></img>
+        <img className='Img' src={cardsImgs[2].img}></img>
+        <img className='Img' src={cardsImgs[3].img}></img>
+        </div>
+        <div>
+        <img className='Img' src={cardsImgs[4].img}></img>
+        <img className='Img' src={cardsImgs[5].img}></img>
+        <img className='Img' src={cardsImgs[4].img}></img>
+        <img className='Img' src={cardsImgs[5].img}></img>
+        </div> */}
+
+
+
+
+
+
+// import ananas from "./ananas.PNG";
+// import grape from './grape.PNG';
+// import blueberry from './blueberry.webp';
+// import carrot from './carrot.webp';
+// import lemon from './lemon.PNG';
+// import onion from './onion.PNG';
+
+// const cardsImgs = [
+//   {img: ananas},
+//   {img: grape},
+//   {img: blueberry},
+//   {img: carrot},
+//   {img: lemon},
+//   {img: onion},
+// ];
+
+// {cards.map(card => (
+//   <Card key={card.id}/>
+// ))}
+
+// const cardsImgs = [
+//   { img: ananas,
+//     backgroundImg:"https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png", 
+//   },
+//   { img: grape,
+//     backgroundImg:"https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//   },
+//   { img: blueberry,
+//     backgroundImg:"https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//   },
+//   { img: carrot,
+//     backgroundImg:"https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//   },
+//   { img: lemon,
+//     backgroundImg:"https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//   },
+//   { img: onion,
+//     backgroundImg:"https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//   },
+// ];
+
+// import cardsImgs from './Data/cardsData';
+// import Card from "./Component/Card";
+
+// import cards from './Data/cardsData';
+// import cardsImg from "./Data/cardsData";
+// import {cards} from "./Component/cards"
+
+
+
+{/* <div className="App">
+<h1>Memory Game</h1>
+<button>New Game</button>
+<div className='container'>
+
+  <div>
+  <img className='Img' src={cardsImgs[0].img}></img>
+  <img className='Img' src={cardsImgs[1].img}></img>
+  <img className='Img' src={cardsImgs[0].img}></img>
+  <img className='Img' src={cardsImgs[1].img}></img>
+  </div>
+  <div>
+  <img className='Img' src={cardsImgs[2].img}></img>
+  <img className='Img' src={cardsImgs[3].img}></img>
+  <img className='Img' src={cardsImgs[2].img}></img>
+  <img className='Img' src={cardsImgs[3].img}></img>
+  </div>
+  <div>
+  <img className='Img' src={cardsImgs[4].img}></img>
+  <img className='Img' src={cardsImgs[5].img}></img>
+  <img className='Img' src={cardsImgs[4].img}></img>
+  <img className='Img' src={cardsImgs[5].img}></img>
+  </div>
+
+</div>
+</div> */}
+
+// import ananas from "./ananas.PNG";
+// import grape from './grape.PNG';
+// import blueberry from './blueberry.webp';
+// import carrot from './carrot.webp';
+// import lemon from './lemon.PNG';
+// import onion from './onion.PNG';
+// const cardsImgs = [
+//     {
+//       img: ananas,
+//       background:"https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//     },
+//     {
+//       img: grape,
+//       background:"https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//     },
+//     {
+//       img: blueberry,
+//       background:"https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//     },
+//     {
+//       img: carrot,
+//       background:"https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//     },
+//     {
+//       img: lemon,
+//       background:"https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//     },
+//     {
+//       img: onion,
+//       background:"https://htmlcolorcodes.com/assets/images/colors/light-purple-color-solid-background-1920x1080.png",
+//     },
+//   ];
