@@ -1,9 +1,9 @@
-import ananasImg from "../ananas.PNG";
-import grapeImg from "../grape.PNG";
-import lemonImg from "../lemon.PNG";
-import blueberryImg from "../blueberry.webp";
-import carrotImg from "../carrot.webp";
-import onionImg from "../onion.PNG";
+import ananasImg from "../assets/ananas.png";
+import grapeImg from "../assets/grapes.png";
+import lemonImg from "../assets/lemon.png";
+import blueberryImg from "../assets/blueberry.png";
+import carrotImg from "../assets/carrot.png";
+import onionImg from "../assets/onions.png";
 
 const imges = [
     {

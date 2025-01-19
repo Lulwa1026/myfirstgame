@@ -1,0 +1,126 @@
+// import { useState } from "react";
+// import "./App.css";
+// import { Card } from "./Component/Card";
+
+// import imges from "./Data/cardsData";
+
+// function App() {
+//   const [first, setFirst] = useState(imges.cover);
+//   const handleClick = () => {
+//     if (first === imges.cover) {
+//       setFirst(imges.img);
+//     } else {
+//       setFirst(imges.cover);
+//     }
+//   };
+//   const imgeList = imges.map((imge, index) => {
+//     return (<div class="grid-item"><Card imge={imge} /></div>)
+//   });
+//   return (
+//     <div className="App">
+//       <h1>Memory Game</h1>
+//       <button>New Game</button>
+//       <div class="grid-container">
+//       {imgeList}
+//       </div>
+//       <img onClick={handleClick} src={first}></img>
+//     </div>
+//   );
+// }
+// export default App;
+
+////////////////////////////////////////////////////////////////////////////////
+// import { useState } from "react";
+// import "./App.css";
+// import { Card } from "./Component/Card";
+// import imges from "./Data/cardsData";
+
+// function App() {
+//   const [cards, setCards] = useState([]);
+//   const [flippedCards, setFlippedCards] = useState([]);
+//   const [matchedCards, setMatchedCards] = useState([]);
+
+//   const startGame = () => {
+//     // Shuffle the cards
+//     const shuffledCards = [...imges, ...imges]
+//       .map((card) => ({ ...card, id: Math.random() }))
+//       .sort(() => Math.random() - 0.5);
+
+//     setCards(shuffledCards);
+//     setFlippedCards([]);
+//     setMatchedCards([]);
+//   };
+
+//   const handleCardClick = (id) => {
+//     if (flippedCards.length === 2) return;
+
+//     const clickedCard = cards.find((card) => card.id === id);
+//     setFlippedCards((prevFlipped) => [...prevFlipped, clickedCard]);
+
+//     if (flippedCards.length === 1) {
+//       const [firstCard] = flippedCards;
+//       if (firstCard.img === clickedCard.img) {
+//         setMatchedCards((prevMatched) => [
+//           ...prevMatched,
+//           firstCard,
+//           clickedCard,
+//         ]);
+//       } else {
+//         setTimeout(() => {
+//           setFlippedCards([]);
+//         }, 1000);
+//       }
+//     }
+//   };
+
+//   const handleNewGame = () => {
+//     startGame();
+//   };
+
+//   const checkGameOver = () => {
+//     return matchedCards.length === cards.length;
+//   };
+
+//   const isCardFlipped = (cardId) => {
+//     const flippedCard = flippedCards.find(
+//       (flippedCard) => flippedCard.id === cardId
+//     );
+//     const matchedCard = matchedCards.find(
+//       (matchedCard) => matchedCard.id === cardId
+//     );
+
+//     return flippedCard || matchedCard;
+//   };
+
+//   return (
+//     <div className="App">
+//       <h1>Memory Game</h1>
+//       <button onClick={handleNewGame}>New Game</button>
+//       <div className="grid-container">
+//         {cards.map((card) => (
+//           <div key={card.id} className="grid-item">
+//             <Card
+//               imge={card}
+//               onClick={handleCardClick}
+//               isFlipped={isCardFlipped(card.id)}
+//               id={card.id}
+//             />
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default App;
+///////////////////////////////////////////////////////////////////////////
+// import React from "react";
+// export const Card = (props) => {
+//   return (
+//     <div>
+//       <img className="Img" src={props.imge.img}></img>
+//     </div>
+//   );
+// };
+
+// Card.js
